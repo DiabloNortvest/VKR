@@ -1,0 +1,133 @@
+body {
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+h1 {
+  font-size: 2.8rem; /* примерно 44.8px */
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 2.2rem; /* примерно 35.2px */
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  font-size: 1.6rem; /* примерно 25.6px */
+  margin-bottom: 0.5em;
+}
+
+p, li, label {
+  font-size: 1.1rem; /* примерно 19.8px */
+}
+
+a {
+  font-size: 1.1rem;
+  color: #1a237e;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  background-color: #1a237e;
+  color: white;
+  padding: 15px 0;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 28px;
+  margin-right: 15px;
+}
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  flex-grow: 1;
+}
+nav a {
+  color: #bbdefb;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #ffffff;
+}
+nav a.active {
+  color: #ffffff;
+  text-decoration: underline;
+}
+main {
+  padding: 40px 0;
+}
+footer {
+  background-color: #283593;
+  color: #c5cae9;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+  font-size: 14px;
+}
+.edit-form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #fefefe;
+  border-radius: 4px;
+}
+
+.edit-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.edit-form input[type="text"],
+.edit-form input[type="email"],
+.edit-form textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.edit-form textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.edit-form button {
+  margin-top: 10px;
+  background-color: #1a237e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.edit-form button:hover {
+  background-color: #283593;
+}
